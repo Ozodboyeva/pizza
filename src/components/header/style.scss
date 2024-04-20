@@ -1,0 +1,95 @@
+header {
+  border: 1px solid var(--Line-gray, #f0f0f0);
+  .navbar {
+    border: 1px solid var(--Line-gray, #f0f0f0);
+    .nav {
+      padding: 12px 0px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      &__address {
+        display: flex;
+        gap: 40px;
+        p {
+          color: var(--Black, #191919);
+          text-align: right;
+          font-family: Inter;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 18px;
+          span {
+            color: #191919;
+            text-align: right;
+            font-family: Inter;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 18px;
+          }
+        }
+      }
+      &__time {
+        display: flex;
+        align-items: center;
+        gap: 40px;
+        p {
+          color: var(--Black, #191919);
+          font-family: Inter;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 18px;
+        }
+        &-account {
+          display: flex;
+          align-items: center;
+          gap: 6px;
+          p {
+            color: var(--Black, #191919);
+            text-align: right;
+            font-family: Inter;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 18px;
+          }
+        }
+      }
+    }
+  }
+  .header__items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .header__items {
+    display: flex;
+    padding: 24px 0px;
+    .header__nav {
+      display: flex;
+      gap: 20px;
+      &-item {
+        color: var(--Black, #191919);
+        text-align: center;
+        font-family: "SF Pro Text";
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+      }
+    }
+    .header__btn {
+      display: flex;
+      gap: 10px;
+      img {
+        width: 40px;
+      }
+      .select-style {
+        padding: 5px;
+        width: 80px;
+        background-color: #fff;
+      }
+    }
+  }
+}
